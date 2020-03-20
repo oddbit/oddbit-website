@@ -10,6 +10,14 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</page-query>
+
 <script>
 import Welcome from "~/components/Welcome";
 import OurServices from "~/components/OurServices";
@@ -29,10 +37,13 @@ export default {
     Culture,
     ContactUs
   },
-  metaInfo: {
-    title: "Profesional developer team in Bali",
-    description:
-      "Oddbit is a software development agency based in Bali, that helps to translate your business needs into a technical solutions."
+  metaInfo() {
+    return {
+      title: "Profesional developer team in Bali",
+      titleTemplate: `${this.$page.metadata.siteName} - %s`,
+      description:
+        "Oddbit is a software development agency based in Bali, that helps to translate your business needs into a technical solutions."
+    };
   }
 };
 </script>
