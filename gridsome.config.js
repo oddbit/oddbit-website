@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Oddbit",
+  siteName: "ODDBIT",
   siteUrl: "https://www.oddbit.id",
   siteDescription:
     "Oddbit is a software development agency based in Bali, that helps to translate your business needs into a technical solutions.",
