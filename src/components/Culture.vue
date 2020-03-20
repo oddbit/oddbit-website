@@ -1,27 +1,38 @@
 <template>
   <section class="lg:py-12">
-    <div class="container mx-auto px-6 lg:px-8 py-12 flex flex-col items-center">
+    <div
+      class="container mx-auto px-6 lg:px-8 py-12 flex flex-col items-center"
+    >
       <h2 class="text-3xl font-semibold text-gray-800">
         <span class="italic font-light">Awesome</span> Culture
       </h2>
       <span class="w-10 border-b-2 border-gray-800 my-2"></span>
-      <p
-        class="max-w-lg text-center text-gray-700 leading-relaxed"
-      >We have extraordinary cultures to support us, make a better workflows and to be productive while working.</p>
+      <p class="max-w-lg text-center text-gray-700 leading-relaxed">
+        We have extraordinary cultures to support us, make a better workflows
+        and to be productive while working.
+      </p>
       <div class="flex flex-wrap mt-16 lg:-mx-10">
         <div
           v-for="culture in cultures"
           :key="culture.name"
           class="flex flex-col lg:flex-row w-full lg:w-1/2 lg:px-10 box-border my-10 items-center"
         >
-          <g-image :src="culture.image" :alt="culture.name" width="256" class="w-40 mb-4 lg:mb-0" />
+          <g-image
+            :src="culture.image"
+            :alt="culture.name"
+            width="256"
+            immediate="true"
+            class="w-40 mb-4 lg:mb-0"
+          />
           <div class="flex flex-col lg:ml-6">
             <h4
               class="font-semibold text-lg mb-1 capitalize text-center lg:text-left"
-            >{{culture.name}}</h4>
-            <p
-              class="text-gray-700 leading-relaxed text-center lg:text-left"
-            >{{culture.description}}</p>
+            >
+              {{ culture.name }}
+            </h4>
+            <p class="text-gray-700 leading-relaxed text-center lg:text-left">
+              {{ culture.description }}
+            </p>
           </div>
         </div>
       </div>

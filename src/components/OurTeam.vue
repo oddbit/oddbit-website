@@ -44,7 +44,8 @@
           <g-image
             src="~/assets/images/team-oddbit.jpg"
             alt="Oddbit team"
-            width="1024"
+            width="768"
+            immediate="true"
             class="w-full rounded-lg shadow-xl object-cover z-10"
           />
         </div>

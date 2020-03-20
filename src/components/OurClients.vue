@@ -3,12 +3,15 @@
     <div class="container px-6 lg:px-8 mx-auto flex flex-col items-center">
       <h2
         class="text-sm font-medium font-light text-gray-500 uppercase my-4 tracking-wider"
-      >Our outstanding clients</h2>
+      >
+        Our outstanding clients
+      </h2>
       <div class="flex items-center -mx-4 flex-col sm:flex-row">
         <g-image
           v-for="logo in logos"
           :key="logo.name"
           :src="logo.image"
+          immediate="true"
           class="logo object-contain mx-4"
         />
       </div>

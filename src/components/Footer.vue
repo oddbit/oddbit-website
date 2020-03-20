@@ -6,6 +6,7 @@
           src="~/assets/images/oddbit.svg"
           alt="Oddbit"
           width="256"
+          immediate="true"
           class="w-16"
         />
         <span class="font-bold text-primary uppercase text-xl">Oddbit</span>
