@@ -4,14 +4,14 @@
   >
     <g-link to="/" class="flex items-center my-1 lg:my-0">
       <g-image
-        src="~/assets/images/oddbit-logo.png"
+        src="~/assets/images/oddbit.svg"
         alt="Oddbit"
         width="256"
         class="mr-2 w-8 lg:w-12"
       />
-      <span
-        class="text-primary text-lg lg:text-2xl font-bold uppercase"
-      >{{$static.metadata.siteName}}</span>
+      <span class="text-primary text-lg lg:text-2xl font-bold uppercase">{{
+        $static.metadata.siteName
+      }}</span>
     </g-link>
     <nav
       class="nav lg:block self-center lg:self-center mt-1 lg:mt-0 -mx-2 flex flex-wrap justify-center"
@@ -22,7 +22,9 @@
         :to="item.to"
         exact
         class="text-md tracking-wide text-gray-800 hover:text-primary font-medium mx-2 lg:mx-4 lg:first:ml-0 lg:last:mr-0 capitalize lg:uppercase"
-      >{{item.name}}</g-link>
+      >
+        {{ item.name }}
+      </g-link>
     </nav>
   </header>
 </template>
