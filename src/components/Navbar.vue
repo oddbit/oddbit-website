@@ -7,6 +7,7 @@
         src="~/assets/images/oddbit.svg"
         alt="Oddbit"
         width="256"
+        immediate="true"
         class="mr-2 w-8 lg:w-12"
       />
       <span class="text-primary text-lg lg:text-2xl font-bold uppercase">{{

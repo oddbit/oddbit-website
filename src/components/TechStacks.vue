@@ -1,10 +1,17 @@
 <template>
   <section class="bg-gray-200 lg:py-12">
-    <div class="container px-6 lg:px-8 mx-auto py-12 flex flex-col items-center">
-      <h2 class="text-3xl font-semibold text-gray-800 text-center">Tech Stacks</h2>
+    <div
+      class="container px-6 lg:px-8 mx-auto py-12 flex flex-col items-center"
+    >
+      <h2 class="text-3xl font-semibold text-gray-800 text-center">
+        Tech Stacks
+      </h2>
       <p
         class="text-lg max-w-xl text-center mt-4 leading-relaxed text-gray-700"
-      >We always learn new things and adjust our tech stacks to latest trends in the markets, and choose them depending on business needs.</p>
+      >
+        We always learn new things and adjust our tech stacks to latest trends
+        in the markets, and choose them depending on business needs.
+      </p>
       <div class="flex justify-center flex-wrap -mx-4 mt-6 lg:mt-12">
         <g-image
           v-for="logo in logos"
@@ -12,6 +19,7 @@
           :src="logo.source"
           :alt="logo.name"
           width="256"
+          immediate="true"
           class="logo object-contain mx-5 lg:mx-10 my-8"
         />
       </div>

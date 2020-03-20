@@ -22,15 +22,18 @@
             :src="service.image"
             :alt="service.title"
             width="512"
+            immediate="true"
             class="w-40 lg:mr-10 mb-8 lg:mb-0 mt-6 lg:mt-0"
           />
           <div>
             <h4
               class="font-semibold text-lg text-gray-800 mb-2 text-center lg:text-left"
-            >{{ service.title }}</h4>
-            <p
-              class="leading-relaxed text-gray-700 text-center lg:text-left"
-            >{{ service.description }}</p>
+            >
+              {{ service.title }}
+            </h4>
+            <p class="leading-relaxed text-gray-700 text-center lg:text-left">
+              {{ service.description }}
+            </p>
           </div>
         </div>
       </div>
