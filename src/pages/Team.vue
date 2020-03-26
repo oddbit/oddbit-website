@@ -116,9 +116,9 @@ export default {
         },
         {
           name: "Deta Utama",
-          position: "Your Position",
+          position: "Web Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "There is Life After Failure",
           picture: noAvatar
         },
         {
