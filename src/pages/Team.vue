@@ -58,16 +58,9 @@ export default {
       people: [
         {
           name: "Dennis Alund",
-          position: "Your Position",
+          position: "CTO",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
-        },
-        {
-          name: "Ayu",
-          position: "Your Position",
-          description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "Google Developers Expert for Firebase and an active community contributor. He is passionate about product development and is certified Google Design Sprint Master",
           picture: noAvatar
         },
         {
