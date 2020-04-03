@@ -41,7 +41,6 @@ jobs:
 
       - name: Build web
         run: yarn build
-        env: ${{env.APP_ENV}}
 
       - uses: actions/upload-artifact@v1
         with:
