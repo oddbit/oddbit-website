@@ -12,17 +12,7 @@
         <h2 class="text-3xl font-semibold text-gray-800">Our Team</h2>
         <span class="border-b-2 border-gray-700 flex w-16 my-8"></span>
         <p class="text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          laborum odio mollitia, neque doloribus quibusdam fugit quia
-          reprehenderit itaque. Minus sit repellendus eligendi aliquam
-          voluptatibus quo delectus quidem. Modi, nisi!
-        </p>
-        <br />
-        <p class="text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum facere
-          cum recusandae qui. Laboriosam exercitationem, modi id rem eaque minus
-          doloribus maxime earum numquam laudantium labore nesciunt placeat.
-          Praesentium, numquam.
+          We are striving for excellence and putting a lot of focus on individual’s growth and team happiness. Our team is characterized by community building and supportive environment towards each other.
         </p>
         <g-link to="/team">
           <button
