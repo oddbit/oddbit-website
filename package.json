@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "prebuild": "node build-script.js"
   },
   "dependencies": {
     "gridsome": "^0.7.0"
