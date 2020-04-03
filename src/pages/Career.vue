@@ -84,7 +84,6 @@
               <p class="text-gray-700 leading-relaxed my-2">
                 Internships is temporary jobs that provide real-time work experience, often for college students. provide other values such as certificates, job recommendations, mentoring and networking.
               </p>
-              <br/>
               <p class="text-gray-700 leading-relaxed my-2">
                 Part Time is a job that has half of normal or full time working hours. Part time jobs are temporary for certain periods determined by the company.
               </p>
