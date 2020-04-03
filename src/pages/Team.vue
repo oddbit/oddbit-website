@@ -96,9 +96,9 @@ export default {
         },
         {
           name: "Surya Adi",
-          position: "Your Position",
+          position: "Mobile Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "Starting career as a desktop programmer and passionate in Mobile Apps Development. Apple fanboy but Android user.",
           picture: Surya
         },
         {
