@@ -58,7 +58,7 @@
 <script>
 import noAvatar from "~/assets/images/no-avatar.jpg";
 import Deta from "~/assets/images/teams/deta.jpg";
-import Wida from ""~/assets/images/teams/wida.jpg";
+import Wida from "~/assets/images/teams/wida.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
 
 export default {
