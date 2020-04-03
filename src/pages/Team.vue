@@ -124,7 +124,7 @@ export default {
         {
           name: "Wida",
           position: "Junior Web Developer",
-          description: "You can do anything! Just get up and do it, Follow your Dreams",
+          description: "Web Developer who always happy learning, and she always energetic trying new things on HTML, CSS, Java Script, Angular and React",
           picture: Wida
         },
         {
