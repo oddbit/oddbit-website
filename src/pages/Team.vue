@@ -61,6 +61,7 @@ import Deta from "~/assets/images/teams/deta.jpg";
 import Wida from "~/assets/images/teams/wida.jpg";
 import Melya from "~/assets/images/teams/melya.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
+import Ananda from "~/assets/images/teams/ananda.jpg";
 
 export default {
   metaInfo: {
@@ -106,10 +107,10 @@ export default {
         },
         {
           name: "Ananda Prabawa",
-          position: "Your Position",
+          position: "Web Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "JavaScript enthusiast and focusing on frontend development as well as backend. He is also likes anythings about startup.",
+          picture: Ananda
         },
         {
           name: "Deta Utama",
