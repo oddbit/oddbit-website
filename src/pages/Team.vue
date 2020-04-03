@@ -96,9 +96,9 @@ export default {
         },
         {
           name: "Surya Adi",
-          position: "Your Position",
+          position: "Mobile Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "Starting career as a desktop programmer and passionate in Mobile Apps Development. Apple fanboy but Android user.",
           picture: Surya
         },
         {
@@ -118,7 +118,7 @@ export default {
         {
           name: "Deta Utama",
           position: "Web Developer",
-          description: "There is Life After Failure",
+          description: "Focusing on frontend development. HTML, CSS, and Javascript are his favorite things to work with. He loves to share and active in community about social and technology",
           picture: Deta
         },
         {
