@@ -13,20 +13,13 @@
           <div class="flex-1">
             <div class="max-w-md flex flex-col">
               <h2 class="font-medium text-2xl">Web Developer</h2>
-              <p class="text-gray-700 leading-relaxed my-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptate eius alias minima quidem dignissimos. Incidunt
-                provident mollitia neque voluptatem omnis. Voluptatum maiores
-                magni commodi esse quisquam sunt distinctio repellendus magnam!
-              </p>
+            
               <h3 class="text-gray-700 font-semibold mt-4">Requirements:</h3>
               <ul class="text-gray-700 requirement-list">
-                <li>HTML, CSS/SASS/CSS in JS</li>
-                <li>JavaScript</li>
-                <li>TypeScript [Optional] (Will be good)</li>
-                <li>React/Vue/Angular</li>
-                <li>Firebase</li>
-                <li>NodeJS</li>
+                <li>Good knowledge with one or more framework such as Vue, React or Angular</li>
+                <li>Previous experience with another language except for Javascript/Typescript
+                <li>Good knowledge of NodeJS</li>
+                <li>Ability to translate a visual design into HTML and styling</li>
               </ul>
               <div class="mt-6">
                 <a
@@ -54,17 +47,13 @@
           <div class="flex-1">
             <div class="max-w-md ml-auto">
               <h2 class="font-medium text-2xl">Mobile Developer</h2>
-              <p class="text-gray-700 leading-relaxed my-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptate eius alias minima quidem dignissimos. Incidunt
-                provident mollitia neque voluptatem omnis. Voluptatum maiores
-                magni commodi esse quisquam sunt distinctio repellendus magnam!
-              </p>
               <h3 class="text-gray-700 font-semibold mt-4">Requirements:</h3>
               <ul class="text-gray-700 requirement-list">
-                <li>Dart</li>
-                <li>Flutter</li>
-                <li>Firebase</li>
+                <li>Good knowledge with at least one of iOS or Android</li>
+                <li>For iOS developers: good knowledge of Swift</li>
+                <li>For Android developers: experience with Kotlin</li>
+                <li>Previous experience with a cross-platform framework such as React Native or Flutter</li>
+                <li>Ability to translate a visual design into mobile layouts on respective platform</li>
               </ul>
               <div class="mt-6">
                 <a
@@ -93,10 +82,10 @@
             <div class="max-w-md">
               <h2 class="font-medium text-2xl">Internship/Part Time</h2>
               <p class="text-gray-700 leading-relaxed my-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptate eius alias minima quidem dignissimos. Incidunt
-                provident mollitia neque voluptatem omnis. Voluptatum maiores
-                magni commodi esse quisquam sunt distinctio repellendus magnam!
+                Internships is temporary jobs that provide real-time work experience, often for college students. provide other values such as certificates, job recommendations, mentoring and networking.
+              </p>
+              <p class="text-gray-700 leading-relaxed my-2">
+                Part Time is a job that has half of normal or full time working hours. Part time jobs are generally temporary (temporary) for certain periods determined by the company.
               </p>
               <h3 class="text-gray-700 font-semibold mt-4">
                 Requirements: Depends on position you apply (Web or Mobile)
