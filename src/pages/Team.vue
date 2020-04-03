@@ -118,7 +118,7 @@ export default {
         {
           name: "Deta Utama",
           position: "Web Developer",
-          description: "There is Life After Failure",
+          description: "Focusing on frontend development. HTML, CSS, and Javascript is his favorite things to work with. He loves to sharing and active in community about social and tech things",
           picture: Deta
         },
         {
