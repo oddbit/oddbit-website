@@ -57,6 +57,14 @@
 
 <script>
 import noAvatar from "~/assets/images/no-avatar.jpg";
+import Deta from "~/assets/images/teams/deta.jpg";
+import Wida from "~/assets/images/teams/wida.jpg";
+import Melya from "~/assets/images/teams/melya.jpg";
+import Dennis from "~/assets/images/teams/dennis.jpg";
+import Ananda from "~/assets/images/teams/ananda.jpg";
+import Fery from "~/assets/images/teams/fery.jpg";
+import EkaParama from "~/assets/images/teams/eka.jpg";
+import Surya from "~/assets/images/teams/surya.jpg";
 
 export default {
   metaInfo: {
@@ -67,17 +75,10 @@ export default {
       people: [
         {
           name: "Dennis Alund",
-          position: "Your Position",
+          position: "CTO",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
-        },
-        {
-          name: "Ayu",
-          position: "Your Position",
-          description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Google Developers Expert for Firebase and an active community contributor. He is passionate about product development and is certified Google Design Sprint Master",
+          picture: Dennis
         },
         {
           name: "Catra Darusman",
@@ -88,52 +89,50 @@ export default {
         },
         {
           name: "Eka Parama",
-          position: "Your Position",
+          position: "Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Roaming between Mobile Android/iOS and Web technologies.",
+          picture: EkaParama
         },
         {
           name: "Surya Adi",
           position: "Your Position",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          picture: Surya
         },
         {
           name: "Fery Syukur",
-          position: "Your Position",
+          position: "Mobile Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Mobile Developer who enjoy to learning and trying new things on Android, IOS and Flutter.",
+          picture: Fery
         },
         {
           name: "Ananda Prabawa",
-          position: "Your Position",
+          position: "Web Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "JavaScript enthusiast and focusing on frontend development as well as backend. He is also likes anythings about startup.",
+          picture: Ananda
         },
         {
           name: "Deta Utama",
-          position: "Your Position",
-          description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          position: "Web Developer",
+          description: "There is Life After Failure",
+          picture: Deta
         },
         {
           name: "Wida",
-          position: "Your Position",
-          description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          position: "Junior Web Developer",
+          description: "You can do anything! Just get up and do it, Follow your Dreams",
+          picture: Wida
         },
         {
           name: "Melya",
-          position: "Your Position",
+          position: "Junior Web Developer",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          picture: Melya
         }
       ]
     };
