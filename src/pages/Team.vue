@@ -63,6 +63,7 @@ import Melya from "~/assets/images/teams/melya.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
 import Ananda from "~/assets/images/teams/ananda.jpg";
 import Fery from "~/assets/images/teams/fery.jpg";
+import EkaParama from "~/assets/images/teams/eka.jpg";
 
 export default {
   metaInfo: {
@@ -87,10 +88,10 @@ export default {
         },
         {
           name: "Eka Parama",
-          position: "Your Position",
+          position: "Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Roaming between Mobile Android/iOS and Web technologies.",
+          picture: EkaParama
         },
         {
           name: "Surya Adi",
