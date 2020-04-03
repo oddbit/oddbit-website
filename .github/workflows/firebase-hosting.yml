@@ -44,8 +44,8 @@ jobs:
 
       - uses: actions/upload-artifact@v1
         with:
-          name: web-dist
-          path: web/dist
+          name: dist
+          path: dist
 
   deploy:
     runs-on: ubuntu-latest
@@ -58,8 +58,8 @@ jobs:
 
       - uses: actions/download-artifact@v1
         with:
-          name: web-dist
-          path: web/dist
+          name: dist
+          path: dist
 
       - name: Set development project alias variable
         if: env.IS_PUSH_DEVELOP == 'true' || env.IS_PR_DEVELOP == 'true'
