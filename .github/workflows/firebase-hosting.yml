@@ -1,0 +1,87 @@
+name: Deploy Static Web
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+
+env:
+  IS_PR_DEVELOP: ${{github.event_name == 'pull_request' && github.base_ref == 'develop'}}
+  IS_PR_MASTER: ${{github.event_name == 'pull_request' && github.base_ref == 'master'}}
+  IS_PUSH_DEVELOP: ${{github.event_name == 'push' && github.ref == 'refs/heads/develop'}}
+  IS_PUSH_MASTER: ${{github.event_name == 'push' && github.ref == 'refs/heads/master'}}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install packages
+        run: yarn install
+
+      - name: Set development env variable
+        if: env.IS_PUSH_DEVELOP == 'true' || env.IS_PR_DEVELOP == 'true'
+        run: |
+          echo "::set-env name=APP_ENV::development"
+
+      - name: Set production env variable
+        if: env.IS_PUSH_MASTER == 'true' || env.IS_PR_MASTER == 'true'
+        run: |
+          echo "::set-env name=APP_ENV::production"
+
+      - name: Build web
+        run: yarn build
+        with:
+          app_env: ${{env.APP_ENV}}
+
+      - uses: actions/upload-artifact@v1
+        with:
+          name: web-dist
+          path: web/dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push'
+    env:
+      FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: web-dist
+          path: web/dist
+
+      - name: Set development env variable
+        if: env.IS_PUSH_DEVELOP == 'true' || env.IS_PR_DEVELOP == 'true'
+        run: |
+          echo "::set-env name=PROJECT_ALIAS::development"
+
+      - name: Set production env variable
+        if: env.IS_PUSH_MASTER == 'true' || env.IS_PR_MASTER == 'true'
+        run: |
+          echo "::set-env name=PROJECT_ALIAS::production"
+
+      - name: Select Firebase project
+        uses: w9jds/firebase-action@v1.3.0
+        with:
+          args: use ${{env.PROJECT_ALIAS}}
+
+      - name: Deploy to Firebase Hosting
+        uses: w9jds/firebase-action@v1.3.0
+        with:
+          args: >-
+            deploy
+            --only hosting
+            -m \"Github action run $GITHUB_RUN_ID\" --non-interactive --force
