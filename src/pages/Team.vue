@@ -64,6 +64,7 @@ import Dennis from "~/assets/images/teams/dennis.jpg";
 import Ananda from "~/assets/images/teams/ananda.jpg";
 import Fery from "~/assets/images/teams/fery.jpg";
 import EkaParama from "~/assets/images/teams/eka.jpg";
+import Surya from "~/assets/images/teams/surya.jpg";
 
 export default {
   metaInfo: {
@@ -98,7 +99,7 @@ export default {
           position: "Your Position",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          picture: Surya
         },
         {
           name: "Fery Syukur",
