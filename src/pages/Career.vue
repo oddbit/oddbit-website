@@ -86,7 +86,7 @@
               </p>
               <br/>
               <p class="text-gray-700 leading-relaxed my-2">
-                Part Time is a job that has half of normal or full time working hours. Part time jobs are generally temporary (temporary) for certain periods determined by the company.
+                Part Time is a job that has half of normal or full time working hours. Part time jobs are temporary for certain periods determined by the company.
               </p>
               <h3 class="text-gray-700 font-semibold mt-4">
                 Requirements: Depends on position you apply (Web or Mobile)
