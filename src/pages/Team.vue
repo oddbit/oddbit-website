@@ -98,7 +98,7 @@ export default {
           name: "Surya Adi",
           position: "Mobile Developer",
           description:
-            "Starting career as a desktop programmer and passionate in Mobile Apps Development. Apple fanboy but Android user.",
+            "Starting career as a desktop programmer and passionate in Mobile Apps Development. Focus on IOS, Android, and Flutter. He is Apple fanboy but Android user.",
           picture: Surya
         },
         {
