@@ -59,6 +59,7 @@
 import noAvatar from "~/assets/images/no-avatar.jpg";
 import Deta from "~/assets/images/teams/deta.jpg";
 import Wida from "~/assets/images/teams/wida.jpg";
+import Melya from "~/assets/images/teams/melya.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
 
 export default {
@@ -124,10 +125,10 @@ export default {
         },
         {
           name: "Melya",
-          position: "Your Position",
+          position: "Junior Web Developer",
           description:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+          picture: Melya
         }
       ]
     };
