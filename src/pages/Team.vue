@@ -62,6 +62,7 @@ import Wida from "~/assets/images/teams/wida.jpg";
 import Melya from "~/assets/images/teams/melya.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
 import Ananda from "~/assets/images/teams/ananda.jpg";
+import Fery from "~/assets/images/teams/fery.jpg";
 
 export default {
   metaInfo: {
@@ -100,10 +101,10 @@ export default {
         },
         {
           name: "Fery Syukur",
-          position: "Your Position",
+          position: "Mobile Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Mobile Developer who enjoy to learning and trying new things on Android, IOS and Flutter.",
+          picture: Fery
         },
         {
           name: "Ananda Prabawa",
