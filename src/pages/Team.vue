@@ -65,6 +65,7 @@ import Ananda from "~/assets/images/teams/ananda.jpg";
 import Fery from "~/assets/images/teams/fery.jpg";
 import EkaParama from "~/assets/images/teams/eka.jpg";
 import Surya from "~/assets/images/teams/surya.jpg";
+import Catra from "~/assets/images/teams/catra.jpg";
 
 export default {
   metaInfo: {
@@ -82,10 +83,10 @@ export default {
         },
         {
           name: "Catra Darusman",
-          position: "Your Position",
+          position: "Project Manager",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Experience in various industry from energy to tech and innovation. Highly enthusiast in Innovation, Product, and Business. Certified design sprint facilitator and noodle lover.",
+          picture: Catra
         },
         {
           name: "Eka Parama",
