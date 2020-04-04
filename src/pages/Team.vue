@@ -125,7 +125,7 @@ export default {
         {
           name: "Wida",
           position: "Web Developer",
-          description: "Web Developer who always happy learning, and she always energetic trying new things on HTML, CSS, Java Script, Angular and React",
+          description: "Web Developer who always happy learning, and she always energetic trying new things on HTML, CSS, Java Script, Angular",
           picture: Wida
         },
         {
