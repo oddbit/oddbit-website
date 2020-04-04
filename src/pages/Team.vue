@@ -124,15 +124,15 @@ export default {
         },
         {
           name: "Wida",
-          position: "Junior Web Developer",
+          position: "Web Developer",
           description: "Web Developer who always happy learning, and she always energetic trying new things on HTML, CSS, Java Script, Angular and React",
           picture: Wida
         },
         {
           name: "Melya",
-          position: "Junior Web Developer",
+          position: "Web Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "Like to learning and trying new things about website, with framework and programming languages. She is enjoy the coding and like join in community",
           picture: Melya
         }
       ]
