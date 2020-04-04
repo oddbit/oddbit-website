@@ -1,8 +1,6 @@
 <template>
   <section class="lg:py-12">
-    <div
-      class="container mx-auto px-6 lg:px-8 py-12 flex flex-col items-center"
-    >
+    <div class="container mx-auto px-6 lg:px-8 py-12 flex flex-col items-center">
       <h2 class="text-3xl font-semibold text-gray-800">
         <span class="italic font-light">Awesome</span> Culture
       </h2>
@@ -27,12 +25,10 @@
           <div class="flex flex-col lg:ml-6">
             <h4
               class="font-semibold text-lg mb-1 capitalize text-center lg:text-left"
-            >
-              {{ culture.name }}
-            </h4>
-            <p class="text-gray-700 leading-relaxed text-center lg:text-left">
-              {{ culture.description }}
-            </p>
+            >{{ culture.name }}</h4>
+            <p
+              class="text-gray-700 leading-relaxed text-center lg:text-left"
+            >{{ culture.description }}</p>
           </div>
         </div>
       </div>
@@ -53,23 +49,19 @@ export default {
         {
           name: "Flexible working hours",
           description:
-            "Standard working hours is 9 to 6 with 8 hours from Monday to Friday. But we have clients is several timezones and a work culture that
-            allow us to flexibly arrange our own hours, as long as we fulfill our responsibilities towards project and team.",
+            "Standard working hours is 9 to 6 with 8 hours from Monday to Friday. But we have clients is several timezones and a work culture that allow us to flexibly arrange our own hours, as long as we fulfill our responsibilities towards project and team.",
           image: workingHourImage
         },
         {
           name: "Working remotey",
           description:
-            "We have a remote working culture, allowing all team members to work from any location. Responsibility to do so is up to the individual
-            to make sure that he or she feels equally present and available to the team and client. We believe in freedom under responsibility.
-            We do emphasize the importance of regular physical presence to build team spirit and social bonds.",
+            "We have a remote working culture, allowing all team members to work from any location. Responsibility to do so is up to the individual to make sure that he or she feels equally present and available to the team and client. We believe in freedom under responsibility. We do emphasize the importance of regular physical presence to build team spirit and social bonds.",
           image: workingRemotelyImage
         },
         {
           name: "Daily standup",
           description:
-            "Our work day starts by daily a standup. It is our way to being accountable to ourselves and the team to what we want to accomplish.
-            Day starts only when we have done our daily standup check in",
+            "Our work day starts by daily a standup. It is our way to being accountable to ourselves and the team to what we want to accomplish. Day starts only when we have done our daily standup check in",
           image: dailyStandupImage
         },
         {
