@@ -12,7 +12,9 @@
         <h2 class="text-3xl font-semibold text-gray-800">Our Team</h2>
         <span class="border-b-2 border-gray-700 flex w-16 my-8"></span>
         <p class="text-gray-700 leading-relaxed">
-          We are striving for excellence and putting a lot of focus on individual’s growth and team happiness. Our team is characterized by community building and supportive environment towards each other.
+          We are putting a lot of focus on individual's growth and team
+          happiness. Our team is characterized by community building and
+          supportive environment towards each other.
         </p>
         <g-link to="/team">
           <button

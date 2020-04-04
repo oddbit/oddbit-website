@@ -9,8 +9,9 @@
       <p
         class="text-lg max-w-xl text-center mt-4 leading-relaxed text-gray-700"
       >
-        We always learn new things and adjust our tech stacks to latest trends
-        in the markets, and choose them depending on business needs.
+        We strive to stay on the frontline of new standards and leading
+        technologies. We will always adopt and evaluate new opportunities for
+        your business needs.
       </p>
       <div class="flex justify-center flex-wrap -mx-4 mt-6 lg:mt-12">
         <g-image

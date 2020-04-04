@@ -53,25 +53,29 @@ export default {
         {
           name: "Flexible working hours",
           description:
-            "Standard working hours is 9 to 6 with 8 hours from Monday to Friday. But we can start working any time as it's fulfill the responsibility.",
+            "Standard working hours is 9 to 6 with 8 hours from Monday to Friday. But we have clients is several timezones and a work culture that
+            allow us to flexibly arrange our own hours, as long as we fulfill our responsibilities towards project and team.",
           image: workingHourImage
         },
         {
           name: "Working remotey",
           description:
-            "We focused works at office, but we can work remotely if any personal things that make us can't go to office with reasonable reason.",
+            "We have a remote working culture, allowing all team members to work from any location. Responsibility to do so is up to the individual
+            to make sure that he or she feels equally present and available to the team and client. We believe in freedom under responsibility.
+            We do emphasize the importance of regular physical presence to build team spirit and social bonds.",
           image: workingRemotelyImage
         },
         {
           name: "Daily standup",
           description:
-            "Our works starting by daily standup. What we did yesterday, what will we do now, and other things the team need to know.",
+            "Our work day starts by daily a standup. It is our way to being accountable to ourselves and the team to what we want to accomplish.
+            Day starts only when we have done our daily standup check in",
           image: dailyStandupImage
         },
         {
           name: "Working at Co-working space",
           description:
-            "We have 2 places to work. Colony Creative Hub - Plaza Renon, and KE{M}BALI Hub.",
+            "We have two main on site work locations in Bali: Colony Creative Hub in Plaza Renon and KE{M}BALI Innovation Hub in Sunset Road.",
           image: coworkingImage
         }
       ]
