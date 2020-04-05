@@ -12,11 +12,11 @@
           Our team based in Bali with remote team in Jakarta
         </p>
       </div>
-      <div class="flex flex-wrap -mx-8 mt-10">
+      <div class="flex flex-wrap lg:-mx-8 mt-10">
         <div
           v-for="person in people"
           :key="person.name"
-          class="flex flex-col w-full md:w-1/3 lg:w-1/4 items-center p-8 lg:py-12 text-center"
+          class="flex flex-col w-full md:w-1/2 lg:w-1/4 items-center py-6 md:px-6 lg:p-8 text-center"
         >
           <g-image
             :src="person.picture"
@@ -32,7 +32,7 @@
         </div>
         <!-- Next team -->
         <div
-          class="flex flex-col w-full md:w-1/3 lg:w-1/4 items-center p-8 lg:py-12 text-center"
+          class="flex flex-col w-full md:w-1/2 lg:w-1/4 items-center py-6 md:px-6 lg:p-8 text-center"
         >
           <g-image
             src="~/assets/images/no-avatar.jpg"
@@ -63,6 +63,9 @@ import Melya from "~/assets/images/teams/melya.jpg";
 import Dennis from "~/assets/images/teams/dennis.jpg";
 import Ananda from "~/assets/images/teams/ananda.jpg";
 import Fery from "~/assets/images/teams/fery.jpg";
+import EkaParama from "~/assets/images/teams/eka.jpg";
+import Surya from "~/assets/images/teams/surya.jpg";
+import Catra from "~/assets/images/teams/catra.jpg";
 
 export default {
   metaInfo: {
@@ -80,24 +83,24 @@ export default {
         },
         {
           name: "Catra Darusman",
-          position: "Your Position",
+          position: "Project Manager",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Experience in various industry from energy to tech and innovation. Highly enthusiast in Innovation, Product, and Business. Certified design sprint facilitator and noodle lover.",
+          picture: Catra
         },
         {
           name: "Eka Parama",
-          position: "Your Position",
+          position: "Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Roaming between Mobile Android/iOS and Web technologies.",
+          picture: EkaParama
         },
         {
           name: "Surya Adi",
-          position: "Your Position",
+          position: "Mobile Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
-          picture: noAvatar
+            "Starting career as a desktop programmer and passionate in Mobile Apps Development. Focus on IOS, Android, and Flutter. He is Apple fanboy but Android user.",
+          picture: Surya
         },
         {
           name: "Fery Syukur",
@@ -116,20 +119,20 @@ export default {
         {
           name: "Deta Utama",
           position: "Web Developer",
-          description: "There is Life After Failure",
+          description: "Focusing on frontend development. HTML, CSS, and JavaScript are his favorite things to work with. He loves to share and active in community about social and technology",
           picture: Deta
         },
         {
           name: "Wida",
-          position: "Junior Web Developer",
-          description: "You can do anything! Just get up and do it, Follow your Dreams",
+          position: "Web Developer",
+          description: "Web Developer who always happy learning, and she always energetic trying new things on HTML, CSS, Java Script, Angular",
           picture: Wida
         },
         {
           name: "Melya",
-          position: "Junior Web Developer",
+          position: "Web Developer",
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui saepe libero quibusdam, sapiente repudiandae labore excepturi molestiae porro ducimus velit mollitia cumque deleniti! Autem iste modi rem sapiente iure unde?",
+            "Like to learning and trying new things about website, with framework and programming languages. She is enjoy the coding and like join in community",
           picture: Melya
         }
       ]

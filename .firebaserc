@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "oddbit-dev-website",
+    "development": "oddbit-dev-website",
+    "production": "oddbit-prod-website"
+  }
+}

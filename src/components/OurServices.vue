@@ -7,9 +7,10 @@
           class="border-b-2 lg:border-b-0 lg:border-r-2 border-gray-800 lg:mx-12 my-6 lg:my-0 w-16 lg:w-auto"
         ></span>
         <p class="max-w-screen-md text-gray-700 leading-relaxed">
-          Our team is experts in Firebase integration for applications, which
-          can be tailor-made for your need from full Firebase experience to
-          none. We will help you to find the right fit for your project needs.
+          Our team are experts in building solutions with Firebase. 
+          We help you to build your product fast and scalable. 
+          For other platforms and solutions, we can also be tailor make for your need 
+          to help you to find the right fit for your project.
         </p>
       </div>
       <div class="flex flex-col lg:flex-row -mx-4 mt-12 lg:mt-24">
@@ -52,13 +53,13 @@ export default {
         {
           title: "Mobile App Development",
           description:
-            "We do mobile app development for Android and iOS following best practices, using Flutter which makes app development faster.",
+            "We do mobile app development for Android and iOS following best practices. We build both native and have long experience in using Flutter which makes app development faster.",
           image: mobileAppImage
         },
         {
           title: "Website Development",
           description:
-            "We are developing sophisticated website using Vue, React, and Angular. With enhanced stacks likes NuxtJS, NextJS, and Angular Universal will ensure the best performance and SEO.",
+            "We help you to build sophisticated websites and web applications using Vue, React, and Angular. With enhanced stacks likes NuxtJS, NextJS, and Angular Universal we can ensure the best performance and SEO.",
           image: websiteImage
         }
       ]
