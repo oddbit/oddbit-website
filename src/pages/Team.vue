@@ -12,11 +12,11 @@
           Our team based in Bali with remote team in Jakarta
         </p>
       </div>
-      <div class="flex flex-wrap -mx-8 mt-10">
+      <div class="flex flex-wrap lg:-mx-8 mt-10">
         <div
           v-for="person in people"
           :key="person.name"
-          class="flex flex-col w-full md:w-1/3 lg:w-1/4 items-center p-8 lg:py-12 text-center"
+          class="flex flex-col w-full md:w-1/2 lg:w-1/4 items-center py-6 md:px-6 lg:p-8 text-center"
         >
           <g-image
             :src="person.picture"
@@ -32,7 +32,7 @@
         </div>
         <!-- Next team -->
         <div
-          class="flex flex-col w-full md:w-1/3 lg:w-1/4 items-center p-8 lg:py-12 text-center"
+          class="flex flex-col w-full md:w-1/2 lg:w-1/4 items-center py-6 md:px-6 lg:p-8 text-center"
         >
           <g-image
             src="~/assets/images/no-avatar.jpg"
